@@ -20,7 +20,7 @@ generation_config = {
 }
 
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-pro",
+    model_name="gemini-1.5-flash",
     generation_config=generation_config,
     system_instruction="You are an expert in multilingual translation. Your task is to translate the given input text from its original language into the specified target language accurately while preserving the meaning. For example, if the input is 'What is your name in French?', the output should be 'Comment vous appelez-vous ?' in French. Translate into any language as requested in the input.output should be only the sentence or text to be transled dont explain and speak the output"
 )
